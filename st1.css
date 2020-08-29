@@ -1,0 +1,73 @@
+body ::selection{
+    color: darkgoldenrod;
+    background-color: springgreen;
+}
+*{
+    text-align: center;
+    scrollbar-base-color: blueviolet;
+}
+.mainhd{
+    font-style: oblique;
+    color: rgb(27, 83, 250);
+    text-align: center;
+    /* background-color: #a0f3d71f; */
+    font-size: 300%;
+    font-family: 'Aladin', cursive;
+}
+form .formular{
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+    border: 5px groove rgb(119, 37, 23) ;
+    background:rgba(0, 0, 0, 0.500) ;
+}
+.commentboxstyle1{
+    color: rgb(253, 249, 9);
+    font-family: sans-serif;
+    font-size: 100%;
+    font-style: oblique;
+    font-weight: 700;
+}
+.centeral{
+    text-align: center;
+}
+input{
+    color: rgb(231, 13, 184);
+    /* background-color: rgba(255, 248, 220, 0.082) ; */
+    font-family: cursive;
+    font-weight: 800;
+}
+.underliner{
+    border-bottom: 5px solid #efaf1e ;
+}
+
+.hero-image{
+    background-image: url(bgimage1.jpg)  ;
+    background-size: 100% ; 
+    background-repeat: no-repeat ;
+    background-blend-mode: overlay;
+    background-position: center ;
+    background-clip: border-box;
+    border:5px dashed firebrick  ;
+    padding: 0px;
+    margin: 0px ;
+    
+    
+}
+hr{
+    width:500px; 
+    color:#123456; 
+    background-color: rgba(255, 248, 220, 0.082)
+}
+#comment{
+    background-color: rgba(205, 92, 92, 0.600);
+}
+#region{
+    background-color: rgba(205, 92, 92, 0.600);
+}
+#agegroup{
+    background-color: rgba(205, 92, 92, 0.600);
+}
+#phno{
+    background-color: rgba(205, 92, 92, 0.600);
+}
